@@ -27,5 +27,9 @@ the benchmark for the Poisson problem can be run with the command
 
 and the other benchmarks can be run analogously.
 
+Note, that each problem is solved by the gradient descent method (abbreviated `gd`), limited memory BFGS methods with a memory size of 1, 3, and 5 (abbreviated `lbfgs_1`, `lbfgs_3`, and `lbfgs_5`), and the Fletcher-Reeves (`cg_FR`), Polak-Ribiere (`cg_PR`),
+Hestenes-Stiefel (`cg_HS`), Dai-Yuan (`cg_DY`), and Hager-Zhang (`cg_HZ`) nonlinear
+conjugate gradient methods.
+
 Finally, there are two post processing functionalities available in the "visualization"
 folder: `optimization_history.py` creates plots showing the evolution of the cost functional and shape gradient norm over the optimization and saves them as .pdf files, and `performance_analysis.py` computes how many iterations the methods need to reach a certain tolerance, and generates the LaTeX tables used in the manuscript.

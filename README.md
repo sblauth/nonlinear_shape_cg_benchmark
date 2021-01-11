@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4432327.svg)](https://doi.org/10.5281/zenodo.4432327)
+
+
+
 The repository contains the source code for the numerical experiments considered
 in [Nonlinear Conjugate Gradient Methods for PDE Constrained Shape Optimization Based on Steklov-Poincaré-Type Metrics](https://arxiv.org/abs/2007.12891) by Sebastian Blauth.
 
@@ -33,3 +37,5 @@ conjugate gradient methods.
 
 Finally, there are two post processing functionalities available in the "visualization"
 folder: `optimization_history.py` creates plots showing the evolution of the cost functional and shape gradient norm over the optimization and saves them as .pdf files, and `performance_analysis.py` computes how many iterations the methods need to reach a certain tolerance, and generates the LaTeX tables used in the manuscript.
+
+This software is citeable under the following DOI: [10.5281/zenodo.4432327](https://doi.org/10.5281/zenodo.4432327).

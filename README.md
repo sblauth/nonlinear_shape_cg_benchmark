@@ -1,9 +1,11 @@
+[![DOI](https://img.shields.io/badge/DOI-10.1137%2F20M1367738-blue)](https://doi.org/10.1137/20M1367738)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4432327.svg)](https://doi.org/10.5281/zenodo.4432327)
 
 
 
+
 The repository contains the source code for the numerical experiments considered
-in [Nonlinear Conjugate Gradient Methods for PDE Constrained Shape Optimization Based on Steklov-Poincaré-Type Metrics](https://arxiv.org/abs/2007.12891) by Sebastian Blauth.
+in [Nonlinear Conjugate Gradient Methods for PDE Constrained Shape Optimization Based on Steklov-Poincaré-Type Metrics](https://doi.org/10.1137/20M1367738) by Sebastian Blauth.
 
 To run the code, you have to install [cashocs](https://cashocs.readthedocs.io/)
 first, which includes all necessary prerequisites. The results presented in this
@@ -39,3 +41,24 @@ Finally, there are two post processing functionalities available in the "visuali
 folder: `optimization_history.py` creates plots showing the evolution of the cost functional and shape gradient norm over the optimization and saves them as .pdf files, and `performance_analysis.py` computes how many iterations the methods need to reach a certain tolerance, and generates the LaTeX tables used in the manuscript.
 
 This software is citeable under the following DOI: [10.5281/zenodo.4432327](https://doi.org/10.5281/zenodo.4432327).
+
+If you use these nonlinear CG methods for your work, please cite the paper
+
+    Nonlinear Conjugate Gradient Methods for PDE Constrained Shape Optimization Based on Steklov-Poincaré-Type Metrics
+    Sebastian Blauth
+    SIAM Journal on Optimization, Volume 31, Issue 3
+    https://doi.org/10.1137/20M1367738
+
+If you are using BibTeX, you can use the following entry:
+
+    @Article{Blauth2020Nonlinear,
+    author   = {Sebastian Blauth},
+    journal  = {SIAM J. Optim.},
+    title    = {{N}onlinear {C}onjugate {G}radient {M}ethods for {PDE} {C}onstrained {S}hape {O}ptimization {B}ased on {S}teklov-{P}oincaré-{T}ype {M}etrics},
+    year     = {2021},
+    number   = {3},
+    pages    = {1658--1689},
+    volume   = {31},
+    doi      = {10.1137/20M1367738},
+    fjournal = {SIAM Journal on Optimization},
+    }

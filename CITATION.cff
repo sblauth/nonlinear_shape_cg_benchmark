@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Blauth"
+  given-names: "Sebastian"
+  orcid: "https://orcid.org/ 0000-0001-9173-0866"
+title: "Nonlinear Conjugate Gradient Methods for PDE Constrained Shape Optimization Based on Steklov-Poincaré-Type Metrics"
+doi: https://doi.org/10.5281/zenodo.4432327
+url: "https://github.com/sblauth/nonlinear_shape_cg_benchmark"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Blauth"
+    given-names: "Sebastian"
+    orcid: "https://orcid.org/ 0000-0001-9173-0866"
+  doi: "10.1137/20M1367738"
+  journal: "SIAM Journal on Optimization"
+  month: 7
+  start: 1658
+  end: 1689
+  title: "Nonlinear Conjugate Gradient Methods for PDE Constrained Shape Optimization Based on Steklov-Poincaré-Type Metrics"
+  volume: 31
+  issue: 3
+  year: 2021
